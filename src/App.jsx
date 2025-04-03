@@ -1,9 +1,9 @@
 import './App.css'
 
-import Login from './componets/Login';
-import Home from './componets/Home';
-import Nav from './componets/Nav';
-import Subway from './componets/Subway';
+import Login from './components/Login';
+import Home from './components/Home';
+import Nav from './components/Nav';
+import Subway from './components/Subway';
 function App() {
   return (
     <div className="w-full xl:w-4/5 h-screen mx-auto
