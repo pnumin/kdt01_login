@@ -1,10 +1,14 @@
 import { useAtom } from "jotai";
 import { isLogin } from "../atoms/IsLoginAtom";
 import Login from "./Login";
+import { useEffect } from "react";
 
 export default function Home() {
-  const [login] = useAtom(isLogin);
+  const [login, setLogin] = useAtom(isLogin);
 
+  useEffect(()=>{
+    if (localStorage.getItem("email")) setLogin(true) ;
+  }, []);
   return (
     <div className="w-full h-full">
       {
