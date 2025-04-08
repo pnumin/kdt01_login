@@ -5,6 +5,13 @@ import Home from './components/Home';
 import Nav from './components/Nav';
 import Subway from './components/Subway';
 
+<<<<<<< HEAD
+=======
+import Login from './components/Login';
+import Home from './components/Home';
+import Nav from './components/Nav';
+import Subway from './components/Subway';
+>>>>>>> c89866243bb94eeb6c049c73b0f6115d7710d0f2
 function App() {
   return (
     <BrowserRouter>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useAtom } from "jotai";
 import { isLogin } from "../atoms/IsLoginAtom";
 import Login from "./Login";
@@ -16,6 +17,14 @@ export default function Home() {
                 </div>
               : <Login />
      }
+=======
+
+import Login from "./Login";
+export default function Home() {
+  return (
+    <div className="w-full h-full">
+     <Login /> 
+>>>>>>> c89866243bb94eeb6c049c73b0f6115d7710d0f2
     </div>
   )
 }
