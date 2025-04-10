@@ -28,6 +28,11 @@ export default function Nav() {
             <Link to="/subway">지하철대기정보</Link>
           </li>
         }
+        {login &&
+          <li className='mx-1 p-2 rounded-sm hover:bg-lime-50 hover:text-lime-700'>
+            <Link to="/todoList">할일목록</Link>
+          </li>
+        }
       </ul>
       <div className='p-2  text-white
                          border rounded-sm
